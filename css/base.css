@@ -1,0 +1,40 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+/* variables */
+:root{
+    --cyan: hsl(179, 62%, 43%);
+    --brightYellow: hsl(71, 73%, 54%);
+    --lightGray: hsl(204, 43%, 93%);
+    --grayishBlue: hsl(218, 22%, 67%);
+
+}
+/* body style */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+
+/* container */
+.container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+
+/* Footer style */
+.attribution{ 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+}

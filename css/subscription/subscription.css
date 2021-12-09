@@ -1,0 +1,7 @@
+.subscription{
+    box-sizing: border-box;
+    background-color: var(--cyan);
+    color: var(--lightGray);
+    height: 50vh;
+    width: 100vw;
+}

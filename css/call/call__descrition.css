@@ -1,0 +1,6 @@
+.call__descrition{
+    color: var(--grayishBlue);
+    font-size: 1.8rem;
+    line-height: 3rem;
+    text-align: justify;
+}
