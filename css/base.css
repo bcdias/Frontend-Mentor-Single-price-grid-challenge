@@ -3,10 +3,12 @@
 
 /* variables */
 :root{
-    --cyan: hsl(179, 62%, 43%);
-    --brightYellow: hsl(71, 73%, 54%);
-    --lightGray: hsl(204, 43%, 93%);
-    --grayishBlue: hsl(218, 22%, 67%);
+    --cyan: #2ab2af;
+    --cyan2: #2ab2afdf;
+    --brightYellow: #c0df34;
+    --lightGray: 	#e5eff5;
+    --lightGray2: #e5eff580;
+    --grayishBlue: 	#98a6bd;
 
 }
 /* body style */
@@ -26,7 +28,15 @@ body{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
     padding: 3rem;
+}
+
+/* Title style */
+.title{
+    font-size: 1.9rem;
+    font-weight: 700;
 }
 
 

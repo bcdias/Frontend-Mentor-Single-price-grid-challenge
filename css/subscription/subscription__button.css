@@ -1,0 +1,14 @@
+.subscription__button{
+    align-items: center;
+    background-color: var(--brightYellow);
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px #0000003f;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    width: 100%;
+}
+.subscription__button--text{
+    color: var(--lightGray);
+    font-weight: 700;
+}

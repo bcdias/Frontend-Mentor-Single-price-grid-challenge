@@ -1,5 +1,7 @@
 .call{
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
-    height: 50vh;
-    width: 100vw;
+    height: 40vh;
+    justify-content: space-around;
 }

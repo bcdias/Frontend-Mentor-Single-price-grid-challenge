@@ -1,0 +1,10 @@
+.subscription__price{
+    color: var(--lightGray2);
+    /* padding-bottom: 3rem; */
+}
+.subscription__price--modification{
+    color: var(--lightGray);
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-right:1.2rem ;
+}
