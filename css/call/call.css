@@ -5,3 +5,18 @@
     height: 40vh;
     justify-content: space-around;
 }
+
+/*configuração para tablet e desktop */
+ 
+@media screen and (min-width: 768px) {
+    .call{
+        height: 40%;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .call{
+        height: 45%;
+        width: 100vw;
+    }
+}

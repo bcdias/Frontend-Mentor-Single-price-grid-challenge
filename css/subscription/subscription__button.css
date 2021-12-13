@@ -3,12 +3,22 @@
     background-color: var(--brightYellow);
     border-radius: 6px;
     box-shadow: 5px 5px 10px #0000003f;
+    color: var(--lightGray);
     display: flex;
-    height: 60px;
+    font-weight: 700;
+    height: 3rem;
     justify-content: center;
     width: 100%;
 }
-.subscription__button--text{
-    color: var(--lightGray);
-    font-weight: 700;
+
+.subscription__button:hover{
+    background-color: var(--brightYellow2);
+    transition: 0.3s;
+}
+
+@media screen and (min-width: 712px) {
+    .subscription__button{
+        height: 3rem;
+    }
+    
 }
